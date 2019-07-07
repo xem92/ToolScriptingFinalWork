@@ -12,7 +12,10 @@ It rotates, scale and adds to the position.
 ## Task 3
 New field "objective" added inthe json.
 If there is the "objective" field, it will take it as the target.
+The "objective" field has to match with the entitie name of the target.
+
 Example:
+```
 {
   "scene": "camera_scene",
   "directory": "data/assets/",
@@ -49,6 +52,7 @@ Example:
     }
   ]
 }
+```
 
 ## Task 4
 Not Done.
